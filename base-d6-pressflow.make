@@ -104,20 +104,6 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[tao][location] = http://code.developmentseed.org/fserver
 projects[rubik][location] = http://code.developmentseed.org/fserver
 
-
-; Base Peroxide theme
-projects[peroxide_theme][type] = theme
-projects[peroxide_theme][download][type] = git
-projects[peroxide_theme][download][url] = "git://github.com/codeincarnate/Peroxide-Theme.git"
-
-
-; Theme Engines
-projects[peroxide][type] = theme_engine
-projects[peroxide][download][type] = git
-projects[peroxide][download][url] = "git://github.com/codeincarnate/Peroxide.git"
-
-
-
 ; Libraries
 libraries[SolrPhpClient][download][type] = "get"
 libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
