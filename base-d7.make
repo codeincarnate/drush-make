@@ -17,11 +17,14 @@ projects[ctools][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[context][subdir] = contrib
 projects[pathauto][subdir] = contrib
+projects[token][subdir] = contrib
 projects[date][subdir] = contrib
 projects[features][subdir] = contrib
 projects[features][subdir] = contrib
 projects[feeds][subdir] = contrib
 projects[feeds][version] = 2.0-alpha3
+projects[job_scheduler][subdir] = contrib
+projects[job_scheduler][version] = 2.0-alpha2
 projects[module_filter][subdir] = contrib
 projects[relation][subdir] = contrib
 
