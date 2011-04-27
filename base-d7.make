@@ -1,26 +1,50 @@
-; A basic makefile for a Drupal 7 installation
-core = 7.x
+; Basic Drupal 7 Makefile
 api = 2
 
-; Drupal 7 HEAD
+; ===========================================
+; Drupal
+; ===========================================
+core = 7.x
 projects[drupal][type] = core
-projects[drupal][download][type] = "cvs"
-projects[drupal][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal"
-projects[drupal][download][revision] = "HEAD"
-projects[drupal][download][module] = "drupal"
 
-; Useful Fields
-projects[email][subdir] = "contrib"
-projects[field_group][subdir] = "contrib"
+; ============================================
+; Important Contributed Modules
+; We place these in the contrib sub-directory
+; so that things are organized nicely
+; ============================================
+projects[views][subdir] = contrib
+projects[ctools][subdir] = contrib
+projects[views_bulk_operations][subdir] = contrib
+projects[context][subdir] = contrib
+projects[pathauto][subdir] = contrib
+projects[date][subdir] = contrib
+projects[features][subdir] = contrib
+projects[features][subdir] = contrib
+projects[feeds][subdir] = contrib
+projects[feeds][version] = 2.0-alpha3
+projects[module_filter][subdir] = contrib
+projects[relation][subdir] = contrib
 
-; Views
-projects[views][subdir] = "contrib"
+; ===========================================
+; CCK Fields
+; These modules expose nice CCK field types
+; ===========================================
+projects[addressfield][subdir] = contrib
+projects[email][subdir] = contrib
+projects[link][subdir] = contrib
 
-; Relationships
-projects[relation][download][type] = "cvs"
-projects[relation][download][root] = "contributions/modules/relation"
-projects[relation][download][revision] = "HEAD"
+; ===========================================
+; Development Modules
+; We place these in the development sub-directory
+; This makes it clear that we're only using them
+; for development.
+; ===========================================
+projects[devel][subdir] = development
 
-; WYSIWYG
-projects[wysiwyg][subdir] = "contrib"
+
+; ===========================================
+; Themes
+; ===========================================
+projects[tao][type] = theme
+projects[rubik][type] = theme
 
