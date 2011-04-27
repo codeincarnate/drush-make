@@ -12,9 +12,9 @@ drush make http://is.gd/base_d7 mysite --prepare-instlal
 
 The makefiles can be accessed via the following URLS
 
-base-d7.make - http://is.gd/base_d7
-base-d6.make - http://is.gd/base_d6
-base-d6-pressflow.make - http://is.gd/base_d6_pressflow
+* base-d7.make - http://is.gd/base_d7
+* base-d6.make - http://is.gd/base_d6
+* base-d6-pressflow.make - http://is.gd/base_d6_pressflow
 
 
 ## More Information
