@@ -18,7 +18,6 @@ projects[views_bulk_operations][subdir] = contrib
 projects[context][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[token][subdir] = contrib
-projects[date][subdir] = contrib
 projects[features][subdir] = contrib
 projects[features][subdir] = contrib
 projects[feeds][subdir] = contrib
@@ -35,6 +34,11 @@ projects[relation][subdir] = contrib
 projects[addressfield][subdir] = contrib
 projects[email][subdir] = contrib
 projects[link][subdir] = contrib
+projects[cck_phone][subdir] = contrib
+projects[cck_phone][version] = 1.x-dev
+projects[field_group][subdir] = contrib
+projects[date][subdir] = contrib
+
 
 ; ===========================================
 ; Development Modules
