@@ -24,6 +24,7 @@ projects[drupal][type] = core
 ; ============================================
 projects[views][subdir] = contrib
 projects[ctools][subdir] = contrib
+projects[entity][subdir] = contrib
 projects[context][subdir] = contrib
 projects[boxes][subdir] = contrib
 projects[pathauto][subdir] = contrib
@@ -74,6 +75,13 @@ projects[field_group][subdir] = contrib
 projects[date][subdir] = contrib
 
 ; ===========================================
+; Search Modules
+; Modules that we use to have nice search 
+; features on a site.
+; ===========================================
+projects[search_api][contrib]
+
+; ===========================================
 ; Media Related
 ; Make sure that our media experience doesn't
 ; suck.
@@ -95,6 +103,11 @@ projects[og][subdir] = contrib
 ; ===========================================
 projects[devel][subdir] = development
 
+; ===========================================
+; E-Commerce
+; Because someone needs to get paid.
+; ===========================================
+projects[commerce][subdir] = commerce
 
 ; ===========================================
 ; Themes
