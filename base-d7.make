@@ -19,13 +19,13 @@ projects[context][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[token][subdir] = contrib
 projects[features][subdir] = contrib
-projects[features][subdir] = contrib
 projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha3
+projects[feeds][version] = 2.0-alpha4
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 projects[module_filter][subdir] = contrib
 projects[relation][subdir] = contrib
+projects[panels][subdir] = contrib
 
 ; ===========================================
 ; CCK Fields
@@ -54,4 +54,5 @@ projects[devel][subdir] = development
 ; ===========================================
 projects[tao][type] = theme
 projects[rubik][type] = theme
+projects[omega][type] = theme
 
