@@ -32,27 +32,12 @@ projects[token][subdir] = contrib
 projects[features][subdir] = contrib
 
 ; ===========================================
-; Other Useful Modules
-; These aren't always neccessary but in
-; certain situations they can be useful.
-; ===========================================
-projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha4
-projects[job_scheduler][subdir] = contrib
-projects[job_scheduler][version] = 2.0-alpha2
-projects[relation][subdir] = contrib
-projects[panels][subdir] = contrib
-
-; ===========================================
 ; Workflow and Action Related
 ; Make sure that we can support actions
 ; when events occur and support better 
 ; workflows than Drupal can provide
 ; ===========================================
 projects[rules][subdir] = contrib
-projects[workbench][subdir] = contrib
-projects[workbench_access][subdir] = contrib
-projects[workbench_moderation][subdir] = contrib
 
 ; ===========================================
 ; Admin Related Modules
@@ -69,17 +54,27 @@ projects[views_bulk_operations][subdir] = contrib
 projects[addressfield][subdir] = contrib
 projects[email][subdir] = contrib
 projects[link][subdir] = contrib
-projects[cck_phone][subdir] = contrib
-projects[cck_phone][version] = 1.x-dev
 projects[field_group][subdir] = contrib
 projects[date][subdir] = contrib
 
 ; ===========================================
+; Editing
+; 
+; For now this is the WYSIWYG route.  Probably
+; going to be something different in the future.
+; ===========================================
+projects[wysiwyg][subdir] = contrib
+
+
+; ===========================================
 ; Search Modules
 ; Modules that we use to have nice search 
-; features on a site.
+; features on a site.  This effectively requires
+; having solr or some other search backend available.
 ; ===========================================
 projects[search_api][contrib]
+projects[search_api_solr][contrib]
+projects[search_api_autocomplete][contrib]
 
 ; ===========================================
 ; Media Related
@@ -88,13 +83,6 @@ projects[search_api][contrib]
 ; ===========================================
 projects[media][subdir] = contrib
 
-; ==========================================
-; Groups
-; Modules that let users organize into
-; groups.
-; ==========================================
-projects[og][subdir] = contrib
-
 ; ===========================================
 ; Development Modules
 ; We place these in the development sub-directory
@@ -102,17 +90,14 @@ projects[og][subdir] = contrib
 ; for development.
 ; ===========================================
 projects[devel][subdir] = development
-
-; ===========================================
-; E-Commerce
-; Because someone needs to get paid.
-; ===========================================
-projects[commerce][subdir] = commerce
+projects[styleguide][subdir] = development
 
 ; ===========================================
 ; Themes
+; 
+; Rubik used for our admin theme and 
+; using Zen as a base theme for our site theme.
 ; ===========================================
 projects[tao][type] = theme
 projects[rubik][type] = theme
-projects[omega][type] = theme
-
+projects[zen][type] = theme
