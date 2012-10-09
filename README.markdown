@@ -7,7 +7,7 @@ These files can be used by supplying a URL to Drush Make.
 For instance, to create a Drupal 7 site with a prepared install
 in the mysite directory use the following:
 
-drush make http://is.gd/base_d7 mysite --prepare-instlal
+drush make http://is.gd/base_d7 mysite --prepare-install
 
 
 The makefiles can be accessed via the following URLS
